@@ -28,10 +28,6 @@ public class ClientController {
 	@Inject
 	private ClientRepository clientRepository;
 
-	public ClientController(ClientRepository clientRepository) {
-		this.clientRepository = clientRepository;
-	}
-
 	@Get(value = "/clients", produces = MediaType.APPLICATION_JSON)
 	public HttpResponse<List<Client>> get() {
 		try {
