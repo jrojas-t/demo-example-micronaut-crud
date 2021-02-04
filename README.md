@@ -3,7 +3,7 @@
 - Micronaut
 - Lombok
 
-##To start the Micronaut project in Gradle the following command must be executed
+## To start the Micronaut project in Gradle the following command must be executed
 
 ./gradle mn:run
 
